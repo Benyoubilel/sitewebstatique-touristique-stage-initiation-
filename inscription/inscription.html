@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	     <title>SIGN IN</title>
+         <meta charset="utf-8"/>        
+         <link rel="stylesheet" href="inscription.css"  />
+		 <script type="text/javascript" src="../javascript/insc.js"></script>
+    </head>
+    <body id="objet">
+	  	 <header >
+        <div id="entet">
+           <a href="../Dream Travel.html" id="imgoaca">  <h3 id="logo"><img src="../source img/avion24.png"/>Dream Travel</h3> </a>
+        </div>
+       <div id="listemenu">
+        
+        <ul id="l">
+          <li id="menu"class="w"><a href="../hotels/Hotels.html" id="a"> Hôtels</a></li>
+            <li id="menu"><a href="../zone touristique/zonetouristique.html"id="a">Zones Touristiques</a></li>
+            <li id="menu"><a href="../monuments/monuments.html" id="a">Monuments</a></li>
+        </ul>
+        </div>
+        <div id="menurech">
+          
+                <form  class="form">
+                    <input type="search" placeholder="search" class="srch"/>
+                <input type="button" id="rech"/>
+              </form>
+        </div>
+</header>
+        <article >
+		 <div id="div">
+            <form action="connexion.php" method="POST" name="f1">
+				 
+                 <h1>SIGN IN</h1>
+          
+                 <input type="text" placeholder="Full Name " id="fn" name="fn" required="required"/>
+				 
+                 
+                 <input type="text" placeholder="Username" id="nu" name="nu" required="required"/>
+				 
+                 <input type="tel" placeholder="Phone Number" id="tel" name="tel" required="required"/>
+				 
+                 <input type="email" placeholder="E-mail" id="em" name="em" required="required"/>
+				 
+                 
+                 <input type="password" placeholder="password" id="pw" name="pass" required="required"/>
+				 
+                
+                 <input type="password" placeholder="confirm password" id="pw2" name="password" required onblur="verification(); "required="required"/>
+                 <a href="#" id="x">
+				 <input type="button" id='ins' value='SIGN IN' onclick="verif();"/>
+				 </a>
+				  <a href="../connexion/connexion.html">
+				 <input type="button" id='submit' value='LOGIN' >
+				 </a>
+                </form>
+				 <img src="../source img/icons8-facebook .svg" title="facebook login" id="i"/>
+				 <img src="../source img/icons8-google.svg" title="facebook login" />
+                
+                	 
+            
+		  </div>  
+        </article>
+		<footer>
+          
+                    <div class="s1">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="Hotels.html">Listes&nbsp; d'Hôtels</a></li>
+                            <li><a href="../zone touristique/zonetouristique.html">Zones Touristiques</a></li>
+                            <li><a href="../monuments/monuments.html">Monuments</a></li>
+                        </ul>
+                    </div>
+                    <div class="s2">
+                        <h3>About</h3>
+                        <ul>
+                            <li>Company:Ben Youssef</li>
+                            <li><a href="mailto:bilel.by99@gmail.com">Developpeur:Bilel Ben Youssef</a></li>
+                            <li><a href="http://www.isetjb.rnu.tn/">Careers:1èr Licence en technologie de l'informatique <br/>à ISET Djerba</a></li>
+                        </ul>
+                    </div>
+                    <div class="s3">
+                        <h3>Dream Travel</h3>
+                        <p>Ce site est pour faciliter de trouver les hôtels et les zones touristique
+                        ainsi que les monuments populaire à Djerba.</p>
+                    </div>
+               <div id="s4">
+                    <a href="https://www.facebook.com/ben.you.bilel"><img src="../source img/icons8-facebook%20.svg" class="iconfb"/></a>
+                   <a href="https://www.instagram.com/bilel_ben_you/"><img src="../source img/instagram.svg"class="iconisnta"/></a>
+                </div>
+                <p class="copyright">Dream Travel © 2021</p>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,273 @@
+body,html{height:100%;}
+
+body
+ {
+    background: gray;   
+    background-image:url("source img/tourisme.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width:100%;
+    overflow-x: hidden; }
+
+/*  entete de la page  */
+header{
+	width:100%;
+    height:10%;
+    position: absolute;
+    top: 0%;
+    left:0%;}
+
+     /* menu */
+#entet{width:25%;}
+
+#logo{  font-family:cursive;
+    text-decoration: none;
+    position: absolute;
+    top:-11%;
+    left:5%;}
+
+#logo:hover{transform: scale(1.3);}
+
+a{text-decoration: none;}
+
+#menu{color:lightgray;}
+
+#menu:visited{color: black;}
+a:link{color: black;}
+
+h3{
+    color: black;
+    padding-left: 1%;}
+
+   /*liste des menu*/
+#menu{
+    display: inline;
+    font-style:italic;
+    font-family:cursive;
+    border: none;
+    padding-left:3%;
+    text-decoration: underline;
+    align-content: center;}
+
+#a:visited{color: lightgray;}
+#a:link{color: lightgray;}
+#menulist li:hover{transform:scale(1.2);}
+
+#menulist{ 
+    position:absolute;
+    top:0%;
+    left:18%;
+    width:40%;}
+
+  
+
+/* menu login */
+#menulogin{ 
+    position: absolute;
+    left: 85%;
+    top:0%;
+    margin-top:0%;
+    width:15%;}
+
+#login{
+    display: inline-block;
+    font-style:italic;
+    font-family:cursive;
+    border: none; 
+    text-align:center;}
+
+#ins{
+    background: linear-gradient(to bottom right, purple, pink);
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	border-radius:40px;
+    margin-left: 10px;
+    color: black;
+    height: 30px;
+    width: 75px;}
+
+ /* MENU RECHERCHE */
+#menucher{
+    position:absolute;
+    top:22%;
+    left:50%;
+    width:30%;}
+
+#rech{
+    background-image: url("source img/search.PNG");
+    background-position:center;
+    background-repeat:no-repeat;
+    width:50px;
+    height: 30px;
+    position: absolute; 
+    top:0%;
+    left:90%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-style:italic;
+    font-family:cursive;
+    border: none;}
+
+.srch{
+    width: 90%;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    font-style:italic;
+    font-family:cursive;
+    border: none;}
+    
+.srch:focus{outline: none;}
+
+/* corps de la page */
+article{
+    width: 100%;
+    height:  70% ;
+}
+
+#avion{
+    width:5%;
+    position: absolute;
+    top: 15%;
+    left:43%;
+    transform: rotate(35deg);}
+
+h2{
+    position: absolute;
+    top:14%;
+    left:8%;
+    font-family: monospace;
+    font-size: 50px;}
+
+  /*liste des hotels */
+.listhot{
+    position:absolute;
+    top:55%;
+    left:9%;
+    background-color: blur;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;  
+    box-shadow: 10px 7px 117px 10px aqua ;}
+
+.listhot h4{ 
+    margin-left: 7%; 
+    text-decoration: underline;}
+
+.listhot:hover{transform: scale(1.2);}
+
+    /*liste zone touristique */
+.listzone{
+    position:absolute;
+    top:55%;
+    left:40%;
+    background-color: blur;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    box-shadow: 10px 7px 117px 10px aqua ;}
+
+.listzone h4{ 
+    margin-left: 7%; 
+    text-decoration: underline;}
+
+.listzone:hover{transform: scale(1.2);}
+
+   /* liste monumentd */
+.listmon{
+    position:absolute;
+    top:55%;
+    left:70%;
+    background-color: blur;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;  
+    box-shadow: 10px 7px 117px 10px aqua ;}
+
+.listmon h4{ 
+    margin-left: 7%; 
+    text-decoration: underline;}
+
+.listmon:hover{transform: scale(1.2);}
+#lien:visited{color: black;}
+ /*image dans les blocs */
+#immm{
+    width: 100%;
+    height: 78%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;}
+
+/* pied de la page */
+footer
+  {
+	width:100%;
+    height:39%;
+    position:absolute;
+    top:129%;
+    left:0%;
+    background-image: url("source img/ff.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;}
+
+   /* list services*/
+.s1{
+    position: relative;
+    top: 1%;
+    left:1%;font-style:italic;
+    font-family:cursive;}
+
+.s1 li:hover{
+    transform: scale(1.2);
+    color: black;}
+
+.s1 a:visited{color: black;}
+.s1 a:link{color: black;}
+
+   /*about*/
+.s2{position: absolute;
+    top: -1%;
+    left:34%;font-style:italic;
+    font-family:cursive;}
+
+.s2 li:hover{   
+    transform: scale(1.2);
+    color: black;}
+
+.s2 a:visited{color: black;}
+.s2 a:link{color: black;}
+
+/*info Dream travel */
+.s3{
+    position: absolute;
+    top:-1%;
+    left:74%;font-style:italic;
+    font-family:cursive;}
+
+/* icon facebook et instagram et text copy */
+#s4{
+    position: relative;
+    top:23%;
+    left:45%;}
+
+.copyright{
+    position: absolute;
+    top:75%;
+    left:85%;font-style:italic;
+    font-family:cursive;}
+
+.iconisnta{
+    width:39px;
+    height: 48px;}
+
+.iconfb{margin-right: 2%;}
+
+.iconfb:hover{transform: scale(1.5);}
+
+.iconisnta:hover{transform: scale(1.5);}
+
+
+
+  

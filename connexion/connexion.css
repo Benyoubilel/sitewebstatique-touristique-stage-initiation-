@@ -1,0 +1,214 @@
+         /*--------------entete de la page--------------------------*/
+body,html{height:100%;}
+
+body
+ {
+    background: gray;   
+    background-image:url("../source img/tourisme.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width:100%;
+    overflow-x: hidden;}
+
+     /*entete de la page*/
+header{
+	width:100%;
+    height:10%;
+    position: absolute;
+    top: 0%;
+    left:10%;
+}
+#entet{width:25%;}
+
+#logo{
+    font-family:cursive;
+    text-decoration: none;
+    position: absolute;
+    top:-9%;
+    left:0.5%}
+
+h3{
+    color: black;
+    padding-left: 1%;
+  }
+
+    /* liste menu */
+#menu{
+    display: inline;
+    font-style:italic;
+    font-family:cursive;
+    border: none;
+    padding-left:3%;
+    text-decoration: underline;
+    align-content: center;}
+
+#listemenu{ 
+    position:absolute;
+    top:0%;
+    left:10%;
+    width:40%;
+}
+
+#a:visited{color: lightgray;}
+#a:link{color: lightgray;}
+#menu{color:lightgray;}
+#menu:visited{color: lightgray;}
+
+    /* MENU RECHERCHE */
+
+#rech{ 
+    background-image: url("../source img/search.PNG");
+    background-position:center;
+    background-repeat:no-repeat;
+    width:50px;
+    height: 30px;
+    position: absolute; 
+    top:0%;
+    left:90%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-style:italic;
+    font-family:cursive;
+    border: none;}
+
+#menurech{
+    position:absolute;
+    top:22%;
+    left:45%;
+    width:30%;}
+
+.srch{
+    width: 90%;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    font-style:italic;
+    font-family:cursive;
+    border: none;
+    position:absolute;
+    top:0%;}
+    
+.srch:focus{outline: none;}
+
+#logo:hover{transform: scale(1.2);}
+
+     /*---------------------corp de la page-------------------------*/
+#div{
+    width:30%;
+    margin:0% auto;
+    margin-top:10%;
+     position: absolute;
+    left:60%;  
+    top:10%;
+    box-shadow: 2px 2px 2px 2px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    backdrop-filter:blur(3px);}
+
+form {
+    width:100%;
+    padding: 30px;}
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+	border:none;
+    border-bottom: 1px solid #ccc; 
+	background-color:transparent;}
+
+input[type=text]:focus{outline: none;}
+input[type=password]:focus{ outline: none;}
+
+#submit,#ins {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 85%;	
+	background: linear-gradient(to bottom right, white, black);
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	font-family:cursive;}
+
+#txt {
+    text-align:right;
+    padding-top:10px;
+    position: absolute;
+    left:65%;
+    top: 89%;}
+
+a{
+    text-decoration:none;
+    font-family:cursive;}
+
+h1,b,#v{font-family:cursive;}
+
+/*------------------- pied de la page----------------*/
+footer
+  {
+	width:100%;
+    height:39%;
+    position:absolute;
+    top:120%;
+    left:0%;
+     background-image: url("../source img/ff.jpg");
+	 background-size: 100% auto;
+	 background-repeat: no-repeat;
+	 
+	}
+.iconisnta{
+    width:39px;
+    height: 48px;}
+
+.s1{
+    position: absolute;
+    top: -1%;
+    left:1%;font-style:italic;
+    font-family:cursive;}
+
+.s1 li:hover{
+    transform: scale(1.2);
+    color: black;}
+
+.s1 a:visited{color: black;}
+.s1 a:link{color: black;}
+
+.s2{
+    position: absolute;
+    top: -1%;
+    left:34%;font-style:italic;
+    font-family:cursive;}
+
+.s2 li:hover{transform: scale(1.2);color: black;}
+.s2 a:visited{color: black;}
+.s2 a:link{color: black;}
+
+.s3{
+    position: absolute;
+    top:-1%;
+    left:74%;font-style:italic;
+    font-family:cursive;}
+
+#s4{
+    position: relative;
+    top:75%;
+    left:45%;
+}
+
+.iconfb{margin-right: 2%;}
+
+.iconfb:hover{transform: scale(1.5);}
+
+.iconisnta:hover{transform: scale(1.5);}
+
+.copyright{
+    position: absolute;
+    top:79%;
+    left:85%;
+    font-style:italic;
+    font-family:cursive;}
+
